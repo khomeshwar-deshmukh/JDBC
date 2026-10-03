@@ -56,7 +56,6 @@ public class ConnectionPool
 		return con_obj;
 	}
 	
-	
 	void con_Return(Connection con_obj) 
 	{
 		System.out.println("\nReturning the Connection Object back to the Pool");
@@ -66,6 +65,5 @@ public class ConnectionPool
 		{
 			System.out.println(data);
 		}
-	}
-	
+	}	
 }
