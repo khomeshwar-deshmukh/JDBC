@@ -23,9 +23,6 @@ public class Jdbc_App9 {
 	String sqlQrey4 = "update bookingdetails set status='Success' where customer_id=?";
 	
 	
-	
-	
-	
 	public static Connection connect()
 	{
 		Connection con = null;
